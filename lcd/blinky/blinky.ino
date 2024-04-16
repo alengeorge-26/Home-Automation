@@ -1,11 +1,11 @@
 #define LED 3
 
+unsigned int ldr_val;
+
 void setup() 
 { 
   pinMode(LED,OUTPUT);
 }
-
-unsigned int ldr_val;
 
 void loop() 
 {
